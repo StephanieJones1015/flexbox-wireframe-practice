@@ -1,46 +1,64 @@
 .container {
     background-color: rgb(177, 169, 175);
-    height: 600px;
-    margin: 20px auto;
+    height: 700px;
+    margin: 40px auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
+    justify-items: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    width: 80%;
+    
+    
+
     
 
 }
 .header {
     background-color: rgb(178, 26, 140);
-    padding: 20px;
-    font-size: 30px;
+    padding: 40px;
+    font-size: 20px;
     color: white;
     text-align: center;
     width: 80%;
+    border-radius: 20px;
+    gap: 20px;
 }
 .section {
+    gap: 20px;
     background-color: rgb(63, 185, 158);
     padding: 20px;
-    font-size: 20px;
     text-align: center;
     width: 80%;
+    border-radius: 20px;
+
 }
 .article {
     background-color: rgb(245, 85, 101);
     padding: 20px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     margin: 20px auto;
-    width: 60%;
-    color: white
+    width: 95%;
+    color: white;
+    border-radius: 20px;
+    align-content: space-evenly;
+
 }
+
 .aside {
     background-color: rgb(39, 104, 142);
     padding: 20px;
-    color: white
-    font-size: 18px;
+    color: white;
+    font-size: 20px;
     text-align: center;
     margin: 20px auto;
     width: 80%;
+    border-radius: 20px;
 }
 .footer {
     background-color: rgb(224, 137, 36);
@@ -50,4 +68,5 @@
     text-align: center;
     margin: 20px auto;
     width: 80%;
+    border-radius: 20px;
 }
