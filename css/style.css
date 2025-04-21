@@ -27,7 +27,7 @@
     margin: 10px;
 }
 .section {
-    display: flex
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
