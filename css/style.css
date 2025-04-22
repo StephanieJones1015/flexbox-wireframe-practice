@@ -15,10 +15,12 @@
     font-family: sans-serif;
 
 }
+
+
 .header {
     background-color: rgb(178, 26, 140);
     padding: 20px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     text-align: center;
     width: 80%;
@@ -27,26 +29,23 @@
     margin: 10px;
 }
 .section {
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     background-color: rgb(63, 185, 158);
-    padding: 25px;
+    padding: 40px;
     text-align: center;
     width: 80%;
     border-radius: 20px;
-    
+    padding: 10px;
+   
 
 }
 .article {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+   
     background-color: rgb(245, 85, 101);
-    padding: 20px;
-    font-size: 16px;
+    padding: 30px;
+    font-size: 15px;
     text-align: center;
     margin: 20px auto;
     width: 95%;
@@ -60,7 +59,7 @@
     background-color: rgb(39, 104, 142);
     padding: 20px;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin: 20px auto;
     width: 80%;
@@ -69,7 +68,7 @@
 .footer {
     background-color: rgb(224, 137, 36);
     padding: 20px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     text-align: center;
     margin: 20px auto;
