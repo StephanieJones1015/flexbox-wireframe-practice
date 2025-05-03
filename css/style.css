@@ -52,7 +52,7 @@
     width: 95%;
     color: white;
     border-radius: 20px;
-    text-align-center;
+    text-align: center;
     
 
 }
@@ -95,6 +95,7 @@
         padding: 20px;
         content: center;
         align-items: center;
+        align-content: center;
     }
     .header, .footer{
         width: 100%;
