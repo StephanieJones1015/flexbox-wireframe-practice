@@ -82,20 +82,22 @@
     .container {
         flex-direction: row-reverse;
         justify-content: space-between;
+        height: auto;
     }
     .section {
         width: 60%;
-        ;
-    }
+        height: 60%;
+       }
     
     .aside {
         width: 37%;
         height: auto;
         text-align:center !important;
-        padding: 20px;
+        padding: 40px;
         content: center;
         align-items: center;
         align-content: center;
+    
     }
     .header, .footer{
         width: 100%;
