@@ -48,11 +48,11 @@
     background-color: rgb(245, 85, 101);
     padding: 30px;
     font-size: 15px;
-    text-align: center;
     margin: 20px auto;
     width: 95%;
     color: white;
     border-radius: 20px;
+    text-align-center;
     
 
 }
@@ -77,14 +77,26 @@
     width: 80%;
     border-radius: 20px;
 }
-@media (max-width: 960px) {
+/* add media query for desktop that moves the aside to the left of the section at 960px */
+@media (min-width: 960px) {
     .container {
-        width: 100%;
-        height: auto;
-        padding: 10px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
     }
-    .header, .section, .article, .aside, .footer {
+    .section {
+        width: 60%;
+        ;
+    }
+    
+    .aside {
+        width: 37%;
+        height: auto;
+        text-align:center !important;
+        padding: 20px;
+        content: center;
+        align-items: center;
+    }
+    .header, .footer{
         width: 100%;
-        margin: 5px auto;
     }
 }
